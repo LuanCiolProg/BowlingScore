@@ -1,0 +1,9 @@
+C:\Users\LuanPedroMirandaCiol\source\repos\ScoreBowlingProject\ScoreBowling\bin\Debug\netstandard2.0\ScoreBowling.deps.json
+C:\Users\LuanPedroMirandaCiol\source\repos\ScoreBowlingProject\ScoreBowling\bin\Debug\netstandard2.0\ScoreBowling.dll
+C:\Users\LuanPedroMirandaCiol\source\repos\ScoreBowlingProject\ScoreBowling\bin\Debug\netstandard2.0\ScoreBowling.pdb
+C:\Users\LuanPedroMirandaCiol\source\repos\ScoreBowlingProject\ScoreBowling\obj\Debug\netstandard2.0\ScoreBowling.csprojAssemblyReference.cache
+C:\Users\LuanPedroMirandaCiol\source\repos\ScoreBowlingProject\ScoreBowling\obj\Debug\netstandard2.0\ScoreBowling.AssemblyInfoInputs.cache
+C:\Users\LuanPedroMirandaCiol\source\repos\ScoreBowlingProject\ScoreBowling\obj\Debug\netstandard2.0\ScoreBowling.AssemblyInfo.cs
+C:\Users\LuanPedroMirandaCiol\source\repos\ScoreBowlingProject\ScoreBowling\obj\Debug\netstandard2.0\ScoreBowling.csproj.CoreCompileInputs.cache
+C:\Users\LuanPedroMirandaCiol\source\repos\ScoreBowlingProject\ScoreBowling\obj\Debug\netstandard2.0\ScoreBowling.dll
+C:\Users\LuanPedroMirandaCiol\source\repos\ScoreBowlingProject\ScoreBowling\obj\Debug\netstandard2.0\ScoreBowling.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "U2RI4SpPkdk9A9k2WK/vnA15vLf5dwrq0FGEUeOteS2azZMyaAw5hNL2MWSaozsG1Bf8w3xQUu0VbXIUh8JvyA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LuanPedroMirandaCiol\\source\\repos\\ScoreBowlingProject\\ScoreBowling\\ScoreBowling.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LuanPedroMirandaCiol\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\LuanPedroMirandaCiol\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
