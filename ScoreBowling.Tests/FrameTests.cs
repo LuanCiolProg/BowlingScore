@@ -19,7 +19,7 @@ namespace ScoreBowling.Tests
         {
 
             JogadasEmSequencia(20, 0);
-            int score = frame.Pontuação();
+            int score = frame.Pontuacao();
             Assert.Equal(0, score);
         }
 
@@ -28,7 +28,7 @@ namespace ScoreBowling.Tests
         {
 
             JogadasEmSequencia(20, 1);
-            int score = frame.Pontuação();
+            int score = frame.Pontuacao();
             Assert.Equal(20, score);
         }
         [Fact]
@@ -38,7 +38,7 @@ namespace ScoreBowling.Tests
             frame.Jogada(4);
             frame.Jogada(2);
             frame.Jogada(4);
-            int score = frame.Pontuação();
+            int score = frame.Pontuacao();
             Assert.Equal(18, score);
 
         }
@@ -50,7 +50,7 @@ namespace ScoreBowling.Tests
             frame.Jogada(10);
             frame.Jogada(6);
             frame.Jogada(3);
-            int score = frame.Pontuação();
+            int score = frame.Pontuacao();
             Assert.Equal(28, score);
         }
         
@@ -59,7 +59,7 @@ namespace ScoreBowling.Tests
         {
             JogadasEmSequencia(12, 10);
             
-            int score = frame.Pontuação();
+            int score = frame.Pontuacao();
             Assert.Equal(300, score);
         }
         private void JogadasEmSequencia(int numeroDeJogadas, int pinosDerrubados)

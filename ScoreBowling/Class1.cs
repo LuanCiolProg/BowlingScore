@@ -16,7 +16,7 @@ namespace ScoreBowling
             jogadaAtual++;
         }
         
-        public int Pontuação()
+        public int Pontuacao()
         {
             int indiceAtual = 0;
             int Valortotal = 0;
