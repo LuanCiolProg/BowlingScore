@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace ScoreBowling
 {
-    public class ScoreCalculator
+    public class CalculadoraDePontuacao
     {
         public int[] jogadas =  new int[21];
 

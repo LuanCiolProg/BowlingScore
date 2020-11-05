@@ -7,15 +7,18 @@ namespace ScoreBowling.Tests
 {
     public class FrameTests
     {
-        ScoreCalculator frame;
+        CalculadoraDePontuacao frame;
+        public FrameTests()
+        {
+            frame = new CalculadoraDePontuacao();
+        }
 
 
         [Fact]
         public void TodasZero()
         {
-            frame = new ScoreCalculator();
 
-            JogadasEmSequencia(20, 0, frame);
+            JogadasEmSequencia(20, 0);
             int score = frame.Pontuação();
             Assert.Equal(0, score);
         }
@@ -23,16 +26,14 @@ namespace ScoreBowling.Tests
         [Fact]
         public void TodosUm()
         {
-            frame = new ScoreCalculator();
 
-            JogadasEmSequencia(20, 1, frame);
+            JogadasEmSequencia(20, 1);
             int score = frame.Pontuação();
             Assert.Equal(20, score);
         }
         [Fact]
         public void Spare()
         {
-            frame = new ScoreCalculator();
             frame.Jogada(6);
             frame.Jogada(4);
             frame.Jogada(2);
@@ -46,7 +47,6 @@ namespace ScoreBowling.Tests
 
         public void Strike()
         {
-            frame = new ScoreCalculator();
             frame.Jogada(10);
             frame.Jogada(6);
             frame.Jogada(3);
@@ -57,13 +57,12 @@ namespace ScoreBowling.Tests
         [Fact]
         public void TodosStrike()
         {
-            frame = new ScoreCalculator();
-            JogadasEmSequencia(12, 10, frame);
+            JogadasEmSequencia(12, 10);
             
             int score = frame.Pontuação();
             Assert.Equal(300, score);
         }
-        private void JogadasEmSequencia(int numeroDeJogadas, int pinosDerrubados, ScoreCalculator frame)
+        private void JogadasEmSequencia(int numeroDeJogadas, int pinosDerrubados)
         {
             for (int i = 0; i < numeroDeJogadas; i++)
             {
